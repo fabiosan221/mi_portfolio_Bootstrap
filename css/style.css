@@ -139,3 +139,7 @@ body {
   text-decoration: none;
   background-color: var(--bs-dropdown-link-active-bg);
 }
+
+.icon-skill{
+  width: 70%;
+}
