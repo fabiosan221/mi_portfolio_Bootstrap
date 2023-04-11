@@ -137,9 +137,37 @@ body {
 .dropdown-item.active, .dropdown-item:active {
   color: var(--bs-dropdown-link-active-color);
   text-decoration: none;
-  background-color: var(--bs-dropdown-link-active-bg);
+  background-color: #ccc;
 }
 
 .icon-skill{
   width: 70%;
 }
+
+.color-bars{
+  --bs-bg-opacity: 1;
+  background-color: #01F3FE!important;
+}
+
+.color-card-celeste{
+  /* background-color: #212529; */
+  background-color:#01F3FE;
+  /* border-color: #01F3FE!important; */
+}
+.color-card-gris{
+  background-color: rgb(0 0 0 / 50%);
+  color: white; 
+}
+
+.color-porcentaje{
+  color: #01F3FE;
+}
+
+.redes-sociales {
+  width: 20%;
+}
+
+#footer-copyright{
+  background-color: rgb(201 221 225 / 50%);
+}
+
