@@ -167,7 +167,18 @@ body {
   width: 20%;
 }
 
+.redes-sociales:hover {
+  box-shadow: 0px 0px 10px 0px rgba(1,243,254,1);
+}
+
 #footer-copyright{
   background-color: rgb(201 221 225 / 50%);
 }
 
+.card-header-gris {
+  border-bottom: 1px solid rgb(201 221 225 / 50%) !important;
+}
+
+.icon-red-social{
+
+}
