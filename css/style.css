@@ -201,3 +201,11 @@ body {
   background-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;  
   border: 1px solid #01F3FE ;
 }
+
+.modal-content{
+  background-color: rgb(73, 73, 73, 1) !important;
+}
+
+.titulo-modal{
+  color: #01F3FE;
+}
