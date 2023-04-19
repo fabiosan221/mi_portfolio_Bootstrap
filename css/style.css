@@ -159,7 +159,7 @@ body {
   color: white; 
 }
 
-.color-porcentaje{
+.texto-cyan{
   color: #01F3FE;
 }
 
@@ -208,4 +208,36 @@ body {
 
 .titulo-modal{
   color: #01F3FE;
+}
+
+#imagen-portada{
+  max-width: 85%;
+}
+
+.popover {
+  background-color: rgb(73, 73, 73, 1) !important;
+}
+
+.popover-body {
+  color: white !important;
+}
+
+.popover-header {
+  background-color: rgb(73, 73, 73, 1) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, .bs-popover-top>.popover-arrow::after {
+  bottom: var(--bs-popover-border-width);
+  border-top-color: rgb(73, 73, 73, 1) !important;;
+}
+
+#texto-hola{
+  color: #01F3FE;
+  font-size: 70px;
+}
+
+#nombre-portada{
+  color: #01F3FE;
+  font-size: 25px;
 }
