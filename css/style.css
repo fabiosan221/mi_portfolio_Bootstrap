@@ -106,7 +106,7 @@ body {
 .btn-bd-primary {
   --bd-violet-bg: #01F3FE;
   --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
-  --bs-btn-font-weight: 600;
+  --bs-btn-font-weight: 400;
   --bs-btn-color: RGBA(33,37,41,var(--bs-bg-opacity,1))!important;
   --bs-btn-bg: var(--bd-violet-bg);
   --bs-btn-border-color: var(--bd-violet-bg);
