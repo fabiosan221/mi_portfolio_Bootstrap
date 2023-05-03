@@ -229,7 +229,7 @@ body {
 
 .bs-popover-auto[data-popper-placement^=top]>.popover-arrow::after, .bs-popover-top>.popover-arrow::after {
   bottom: var(--bs-popover-border-width);
-  border-top-color: rgb(73, 73, 73, 1) !important;;
+  border-top-color: rgb(73, 73, 73, 1) !important;
 }
 
 #texto-hola{
@@ -240,4 +240,39 @@ body {
 #nombre-portada{
   color: #01F3FE;
   font-size: 25px;
+}
+
+/* Estilos acordeon */
+.accordion-button {
+  background-color: rgb(73, 73, 73, 1) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000 !important;
+  background-color: #01F3FE !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-item {
+  color: #ffffff;
+  background-color: #000;
+  border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+}
+
+.accordion-button {
+  color: #ffffff;
+}
+
+/* Estilos Formulario */
+.form-control {
+  color: #ffffff;
+  background-color: #000 !important;
+  border: solid rgb(73, 73, 73, 1) !important;
+}
+
+.form-control:focus {
+  color: #000 !important;
+  background-color: #01F3FE !important;
+  border: solid #01F3FE !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
